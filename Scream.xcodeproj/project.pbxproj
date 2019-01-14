@@ -14,6 +14,9 @@
 		B71F971021E74EB00046DB21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71F970E21E74EB00046DB21 /* LaunchScreen.storyboard */; };
 		B71F971B21E74EB00046DB21 /* ScreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F971A21E74EB00046DB21 /* ScreamTests.swift */; };
 		B71F972621E74EB00046DB21 /* ScreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F972521E74EB00046DB21 /* ScreamUITests.swift */; };
+		B71F973321E9AB780046DB21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F970721E74EAE0046DB21 /* ViewController.swift */; };
+		B71F973421E9AB790046DB21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71F970721E74EAE0046DB21 /* ViewController.swift */; };
+		B7D7AAE821EC9EEC003EF88B /* glassbreaking.wav in Resources */ = {isa = PBXBuildFile; fileRef = B7D7AAE721EC9EEC003EF88B /* glassbreaking.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		B71F972121E74EB00046DB21 /* ScreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71F972521E74EB00046DB21 /* ScreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamUITests.swift; sourceTree = "<group>"; };
 		B71F972721E74EB00046DB21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71F973521E9B08E0046DB21 /* AAAGH1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AAAGH1.mp3; path = Assets.xcassets/aagh.mp3.dataset/AAAGH1.mp3; sourceTree = "<group>"; };
+		B71F973721E9B1090046DB21 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = Scream/sounds; sourceTree = "<group>"; };
+		B7D7AAE521E9B4D7003EF88B /* AAAGH1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AAAGH1.mp3; path = ../../../Desktop/AAAGH1.mp3; sourceTree = "<group>"; };
+		B7D7AAE721EC9EEC003EF88B /* glassbreaking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glassbreaking.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,11 @@
 		B71F96F921E74EAE0046DB21 = {
 			isa = PBXGroup;
 			children = (
+				B7D7AAE721EC9EEC003EF88B /* glassbreaking.wav */,
+				B780923A21E9B1EF00AE3C87 /* New Group2 */,
+				B71F973D21E9B1A50046DB21 /* New Group1 */,
+				B71F973C21E9B19E0046DB21 /* New Group */,
+				B71F973721E9B1090046DB21 /* sounds */,
 				B71F970421E74EAE0046DB21 /* Scream */,
 				B71F971921E74EB00046DB21 /* ScreamTests */,
 				B71F972421E74EB00046DB21 /* ScreamUITests */,
@@ -97,6 +109,13 @@
 		B71F970421E74EAE0046DB21 /* Scream */ = {
 			isa = PBXGroup;
 			children = (
+				B7D7AAE521E9B4D7003EF88B /* AAAGH1.mp3 */,
+				B7D7AAE421E9B43A003EF88B /* New Group4 */,
+				B7D7AAE321E9B3DA003EF88B /* New Group3 */,
+				B71F973B21E9B1740046DB21 /* New Group2 */,
+				B71F973A21E9B1650046DB21 /* New Group1 */,
+				B71F973921E9B1530046DB21 /* New Group */,
+				B71F973521E9B08E0046DB21 /* AAAGH1.mp3 */,
 				B71F970521E74EAE0046DB21 /* AppDelegate.swift */,
 				B71F970721E74EAE0046DB21 /* ViewController.swift */,
 				B71F970921E74EAE0046DB21 /* Main.storyboard */,
@@ -123,6 +142,62 @@
 				B71F972721E74EB00046DB21 /* Info.plist */,
 			);
 			path = ScreamUITests;
+			sourceTree = "<group>";
+		};
+		B71F973921E9B1530046DB21 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B71F973A21E9B1650046DB21 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		B71F973B21E9B1740046DB21 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		B71F973C21E9B19E0046DB21 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		B71F973D21E9B1A50046DB21 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		B780923A21E9B1EF00AE3C87 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		B7D7AAE321E9B3DA003EF88B /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group3";
+			sourceTree = "<group>";
+		};
+		B7D7AAE421E9B43A003EF88B /* New Group4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +268,11 @@
 				TargetAttributes = {
 					B71F970121E74EAE0046DB21 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					B71F971521E74EB00046DB21 = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,6 +309,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D7AAE821EC9EEC003EF88B /* glassbreaking.wav in Resources */,
 				B71F971021E74EB00046DB21 /* LaunchScreen.storyboard in Resources */,
 				B71F970D21E74EB00046DB21 /* Assets.xcassets in Resources */,
 				B71F970B21E74EAE0046DB21 /* Main.storyboard in Resources */,
@@ -265,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71F973321E9AB780046DB21 /* ViewController.swift in Sources */,
 				B71F971B21E74EB00046DB21 /* ScreamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B71F973421E9AB790046DB21 /* ViewController.swift in Sources */,
 				B71F972621E74EB00046DB21 /* ScreamUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,15 +516,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYA84G3F2K;
 				INFOPLIST_FILE = Scream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LachlanLindsay.Scream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -450,15 +536,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYA84G3F2K;
 				INFOPLIST_FILE = Scream/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = LachlanLindsay.Scream;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
